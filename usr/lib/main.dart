@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screens/dashboard_screen.dart';
-import 'screens/category_screen.dart';
+import 'screens/question_list_screen.dart';
 import 'screens/practice_screen.dart';
 
 void main() {
@@ -21,7 +21,7 @@ class InterviewPracticeApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const DashboardScreen(),
-        '/category': (context) => const CategoryScreen(),
+        '/category': (context) => const QuestionListScreen(),
         '/practice': (context) => const PracticeScreen(),
       },
     );
